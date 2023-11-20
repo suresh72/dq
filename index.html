@@ -22,9 +22,11 @@
       padding: 1em;
     }
 
-    main {
-      padding: 2em;
-    }
+ 
+  <main>
+    <p>Welcome to DQ Coffee Space! Discover our delightful menu and enjoy a cozy atmosphere.</p>
+    <p><a href="DQ_MENU_c.pdf">Click Here for our MENU</a></p>
+  </main>
 
     footer {
       background-color:  #89181a;
@@ -36,53 +38,146 @@
       width: 100%;
     }
 
-        .menu-category {
-            background-color: #3498db;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            font-size: 18px;
-            font-weight: bold;
-        }
+    .menu-category {
+        background-color: #d77621;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
 
-        .menu-item {
-            background-color: #fff;
-            margin: 10px;
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+    .menu-item {
+        background-color: #fff;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-        .price {
-            margin-top: 10px;
-            font-size: 16px;
-            color: #2ecc71;
-            font-weight: bold;
+    .item-name {
+            flex: 1;
+            margin-right: 10px;
+    }
+    
+    .item-image {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+    }
+
+    .price {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #2ecc71;
+        font-weight: bold;
+    }
+
+    .enlarged-image {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
         }
   </style>
 </head>
 <body>
 
+
   <header>
     <h1>Double Quotes Coffee Space</h1>
   </header>
 
-   <div class="menu-category">Cafe</div>
+   <div class="menu-category">Espresso Based</div>
 
     <div class="menu-item">
-        <div><strong>Espresso Shot</strong></div>
-        <div class="price">Price: $140</div>
+      <div class="item-name">
+            <strong>Espresso Shot</strong>
+        </div>
+        <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+        <div class="price">Price: ₹140</div>
     </div>
 
     <div class="menu-item">
         <div><strong>Long Black (hot/iced)</strong></div>
-        <div class="price">Price: $160</div>
+        <div class="price">Price: ₹160</div>
     </div>
+
+  <div class="menu-item">
+        <div><strong>Café Latte (hot/iced)</strong></div>
+        <div class="price">Price: ₹170</div>
+    </div>
+
+    <div class="menu-item">
+        <div><strong>Cappuccino (hot/iced)</strong></div>
+        <div class="price">Price: ₹170</div>
+    </div>
+
+    <div class="menu-item">
+        <div><strong>Cortado (1:1)</strong></div>
+        <div class="price">Price: ₹170</div>
+    </div>
+
+    <div class="menu-item">
+        <div><strong>Café Bombón (shots)</strong></div>
+        <div class="price">Price: ₹195</div>
+    </div>
+
+    <div class="menu-item">
+        <div><strong>Hot Mocha (Dark/White Chocolate)</strong></div>
+        <div class="price">Price: ₹210</div>
+    </div>
+
+    <div class="menu-item">
+        <div><strong>Warm Nutella</strong></div>
+        <div class="price">Price: ₹220</div>
+    </div>
+
+    <div class="menu-item">
+        <div><strong>Vietnamese (Black/White)</strong></div>
+        <div class="price">Price: ₹230</div>
+    </div>
+
+    <div class="menu-item">
+        <div><strong>Biscoff Wallnut Latte</strong></div>
+        <div class="price">Price: ₹290</div>
+    </div>
+
+    <div class="menu-item">
+        <div><strong>Spanish Latte</strong></div>
+        <div class="price">Price: ₹250</div>
+    </div>
+
+    <div class="menu-item">
+        <div><strong>Viennese Coffee</strong></div>
+        <div class="price">Price: ₹250</div>
+    </div>
+
+  <div class="enlarged-image" id="enlarged-image-container">
+        <img id="enlarged-image" src="" alt="Enlarged Image">
+    </div>
+
+    <script>
+        const itemImages = document.querySelectorAll('.item-image');
+        const enlargedImageContainer = document.getElementById('enlarged-image-container');
+        const enlargedImage = document.getElementById('enlarged-image');
+
+        itemImages.forEach((image, index) => {
+            image.addEventListener('click', () => {
+                // Set the source of the enlarged image
+                enlargedImage.src = `espresso-image-${index + 1}.jpg`;
+                enlargedImageContainer.style.display = 'block';
+            });
+        });
+
+        // Close the enlarged image on click
+        enlargedImageContainer.addEventListener('click', () => {
+            enlargedImageContainer.style.display = 'none';
+        });
+    </script>
   
-  <main>
-    <p>Welcome to Your Cafe! Discover our delightful menu and enjoy a cozy atmosphere.</p>
-    <p><a href="DQ_MENU_c.pdf">Click Here for our MENU</a></p>
-  </main>
 
   <footer>
     <a href="DQ_MENU.pdf">View Our Menu</a>
