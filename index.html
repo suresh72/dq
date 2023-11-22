@@ -1,192 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Double Quotes Coffee Space</title>
-  <style>
-    body {
-      font-family: Quicksand, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Quotes Coffee Space</title>
+    <style>
+        body {
+            font-family: Quicksand, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
 
-    header {
-      background-color: #89181a;
-      <!-- background-image: url('A41A9522.JPG');-->
-      background-size: cover;
-      background-position: center;
-      color: white;
-      text-align: center;
-      padding: 1em;
-    }
+        header {
+            background-color: #89181a;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
 
- 
-  <main>
-    <p>Welcome to DQ Coffee Space! Discover our delightful menu and enjoy a cozy atmosphere.</p>
-    <p><a href="DQ_MENU_c.pdf">Click Here for our MENU</a></p>
-  </main>
+        main {
+            padding: 1em;
+        }
 
-    footer {
-      background-color:  #89181a;
-      color: white;
-      text-align: center;
-      padding: 1em;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
+        .menu-category {
+            background-color: #d77621;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
 
-    .menu-category {
-        background-color: #d77621;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    }
+        .menu-item {
+            background-color: #fff;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
 
-    .menu-item {
-        background-color: #fff;
-        margin: 10px;
-        padding: 15px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
 
-    .item-name {
+
+        .item-name {
             flex: 1;
             margin-right: 10px;
-    }
-    
-    .item-image {
-            width: 30px;
-            height: 30px;
-            cursor: pointer;
-    }
-
-    .price {
-        margin-top: 10px;
-        font-size: 16px;
-        color: #2ecc71;
-        font-weight: bold;
-    }
-
-    .enlarged-image {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 1000;
         }
-  </style>
+
+        .item-image {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            float: right;
+            border-radius: 10px;
+        }
+
+        .desc {
+            margin-top: 4px;
+            font-size: 12px;
+            color: #89181a;
+            font-weight: regular;
+        }
+
+        .price {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #050505;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-
-
-  <header>
+<header>
     <h1>Double Quotes Coffee Space</h1>
-  </header>
+</header>
 
-   <div class="menu-category">Espresso Based</div>
-
-    <div class="menu-item">
-      <div class="item-name">
-            <strong>Espresso Shot</strong>
-        </div>
-        <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
-        <div class="price">Price: ₹140</div>
-    </div>
-
-    <div class="menu-item">
-        <div><strong>Long Black (hot/iced)</strong></div>
-        <div class="price">Price: ₹160</div>
-    </div>
-
-  <div class="menu-item">
-        <div><strong>Café Latte (hot/iced)</strong></div>
-        <div class="price">Price: ₹170</div>
-    </div>
-
-    <div class="menu-item">
-        <div><strong>Cappuccino (hot/iced)</strong></div>
-        <div class="price">Price: ₹170</div>
-    </div>
-
-    <div class="menu-item">
-        <div><strong>Cortado (1:1)</strong></div>
-        <div class="price">Price: ₹170</div>
-    </div>
-
-    <div class="menu-item">
-        <div><strong>Café Bombón (shots)</strong></div>
-        <div class="price">Price: ₹195</div>
-    </div>
-
-    <div class="menu-item">
-        <div><strong>Hot Mocha (Dark/White Chocolate)</strong></div>
-        <div class="price">Price: ₹210</div>
-    </div>
-
-    <div class="menu-item">
-        <div><strong>Warm Nutella</strong></div>
-        <div class="price">Price: ₹220</div>
-    </div>
-
-    <div class="menu-item">
-        <div><strong>Vietnamese (Black/White)</strong></div>
-        <div class="price">Price: ₹230</div>
-    </div>
-
-    <div class="menu-item">
-        <div><strong>Biscoff Wallnut Latte</strong></div>
-        <div class="price">Price: ₹290</div>
-    </div>
-
-    <div class="menu-item">
-        <div><strong>Spanish Latte</strong></div>
-        <div class="price">Price: ₹250</div>
-    </div>
-
-    <div class="menu-item">
-        <div><strong>Viennese Coffee</strong></div>
-        <div class="price">Price: ₹250</div>
-    </div>
-
-  <div class="enlarged-image" id="enlarged-image-container">
-        <img id="enlarged-image" src="" alt="Enlarged Image">
-    </div>
-
-    <script>
-        const itemImages = document.querySelectorAll('.item-image');
-        const enlargedImageContainer = document.getElementById('enlarged-image-container');
-        const enlargedImage = document.getElementById('enlarged-image');
-
-        itemImages.forEach((image, index) => {
-            image.addEventListener('click', () => {
-                // Set the source of the enlarged image
-                enlargedImage.src = `espresso-image-${index + 1}.jpg`;
-                enlargedImageContainer.style.display = 'block';
-            });
-        });
-
-        // Close the enlarged image on click
-        enlargedImageContainer.addEventListener('click', () => {
-            enlargedImageContainer.style.display = 'none';
-        });
-    </script>
+<main>
+    <p>Welcome to DQ Coffee Space! Discover our delightful menu and enjoy a cozy atmosphere.</p>
+    <p><a href="DQ_MENU_c.pdf">Click Here for our MENU</a></p>
+    <p>or check out the categories below</p>
+  </main>
   
+<main>
+   <div class="menu-category" id="espresso-based" onclick="toggleMenu('espresso-items')">ESPRESSO BASED</div>
+     <div class="menu-items" id="espresso-items">
+         <div class="menu-item">
+             <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+             <div class="item-name"><strong>Espresso Shot</strong></div>
+             <div class="desc"><p1>concentrated coffee</p1></div>
+             <div class="price">Price: ₹140</div>
+         </div>
 
-  <footer>
-    <a href="DQ_MENU.pdf">View Our Menu</a>
-  </footer>
+         <div class="menu-item">
+             <div><strong>Long Black (hot/iced)</strong></div>
+             <div class="desc">
+                 <p1>concentrated coffee</p1>
+             </div>
+             <div class="price">Price: ₹160</div>
+         </div>
+     
+         <div class="menu-item">
+              <div><strong>Café Latte (hot/iced)</strong></div>
+              <div class="desc">
+                  <p1>concentrated coffee</p1>
+              </div>
+              <div class="price">Price: ₹170</div>
+          </div>
 
-   
+          <div class="menu-item">
+              <div><strong>Cappuccino (hot/iced)</strong></div>
+              <div class="desc">
+                  <p1>concentrated coffee</p1>
+              </div>
+              <div class="price">Price: ₹170</div>
+          </div>
 
-    <!-- Add more items as needed -->
+          <div class="menu-item">
+              <div><strong>Cortado (1:1)</strong></div>
+              <div class="desc"><p1>concentrated coffee</p1> </div>
+              <div class="price">Price: ₹170</div>
+          </div>
 
-</body>
-</body>
-</html>
+          <div class="menu-item">
+              <div><strong>Café Bombón (shots)</strong></div>
+              <div class="desc"><p1>concentrated coffee</p1> </div>
+              <div class="price">Price: ₹195</div>
+          </div>
+
+          <div class="menu-item">
+              <div><strong>Hot Mocha (Dark/White Chocolate)</strong></div>
+              <div class="desc"><p1>concentrated coffee</p1> </div>
+              <div class="price">Price: ₹210</div>
+          </div>
+
+          <div class="menu-item">
+              <div><strong>Warm Nutella</strong></div>
+              <div class="desc"><p1>concentrated coffee</p1> </div>
+              <div class="price">Price: ₹220</div>
+          </div>
+
+          <div class="menu-item">
+              <div><strong>Vietnamese (Black/White)</strong></div>
+              <div class="desc"><p1>concentrated coffee</p1> </div>
+              <div class="price">Price: ₹230</div>
+          </div>
+
+          <div class="menu-item">
+              <div><strong>Biscoff Wallnut Latte</strong></div>
+              <div class="desc"><p1>concentrated coffee</p1> </div>
+              <div class="price">Price: ₹290</div>
+          </div>
+
+          <div class="menu-item">
+              <div><strong>Spanish Latte</strong></div>
+              <div class="desc"><p1>concentrated coffee</p1> </div>
+              <div class="price">Price: ₹250</div>
+          </div>
+
+          <div class="menu-item">
+              <div><strong>Viennese Coffee</strong></div>
+              <div class="desc"><p1>concentrated coffee</p1> </div>
+              <div class="price">Price: ₹250</div>
+          </div>
+      </div>
+
+  <div class="menu-category" id="manualbrews-based" onclick="toggleMenu('manualbrews-items')">MANUAL BREWS</div>
+
+     <div class="menu-items" id="manualbrews-items">
+         <div class="menu-item">
+             <div class="item-name"><strong>Black Coffee</strong></div>
+             <div class="desc"><p1></p1></div>
+             <div class="price">Price: ₹80</div>
+         </div>
+
+         <div class="menu-item">
+             <div><strong>Authentic Filter Coffee</strong></div>
+             <div class="desc">
+                 <p1>concentrated1 coffee</p1>
+             </div>
+             <div class="price">Price: ₹90</div>
+         </div>
+     </div>
+  
+  <div class="menu-category" id="coldbrews" onclick="toggleMenu('coldbrews-items')">COLD BREWS</div>
+
+    <div class="menu-items" id="coldbrews-items">
+        <div class="menu-item">
+            <div class="item-name"><strong>Salted Caramel Cold Brew</strong></div>
+            <div class="desc"><p1>a smooth blend of cold brew topped off with a creamy salty twist</p1></div>
+            <div class="price">Price: ₹80</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>Chocolate Cream Cold Brew</strong></div>
+            <div class="desc"><p1>mocha vibes but bitter? yes.</p1></div>
+            <div class="price">Price: ₹90</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>G.O.A.T (irish)</strong></div>
+            <div class="desc"><p1>perfect cold-brew doesn’t ex....</p1></div>
+            <div class="price">Price: ₹80</div>
+        </div>
+    </div>
+  
+  <div class="menu-category" id="noncoffee" onclick="toggleMenu('noncoffee-items')">NON-COFFEE BASED</div>
+
+    <div class="menu-items" id="noncoffee-items">
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>Hot Chocolate</strong></div>
+            <div class="desc"><p1>(hazelnut/cinnamon)      215</p1></div>
+            <div class="price">Price: ₹195</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong> Italian Hot Chocolate</strong></div>
+            <div class="desc"><p1>belgium dark chocolate, no milk, velvety smooth</p1></div>
+            <div class="price">Price: ₹220</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>Rachel Green (Hot Matcha)</strong></div>
+            <div class="desc"><p1>'Hot' Matcha Delight, Just Like the One and Only Friend You Can't Resist!"</p1></div>
+            <div class="price">Price: ₹245</div>
+        </div>
+
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>Iced Tea (Lemon/Peach/Blueflower)</strong></div>
+            <div class="desc"><p1></p1></div>
+            <div class="price">Price: ₹140</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>Cold Chocolate</strong></div>
+            <div class="desc"><p1></p1></div>
+            <div class="price">Price: ₹190</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>Matcha Green Milk</strong></div>
+            <div class="desc"><p1>matcha green tea powder whisked and poured over chilled milk with sweetner of your choice</p1></div>
+            <div class="price">Price: ₹190</div>
+        </div>
+    </div>
+
+  <div class="menu-category" id="icedlatte" onclick="toggleMenu('latte-items')">ICED LATTE</div>
+
+    <div class="menu-items" id="latte-items">
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>DQ STRONG</strong></div>
+            <div class="desc"><p1>“for the one who loves strong coffee” - double shot of coffee/espresso with sweetened milk</p1></div>
+            <div class="price">Price: ₹149</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>EXCLAMATORY !!</strong></div>
+            <div class="desc"><p1>cold brew shot with our hazelnut syrup and milk.</p1></div>
+            <div class="price">Price: ₹189</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>CARAMEL LOVE <3 </strong></div>
+            <div class="desc"><p1>milk and coffee combined with caramel sweetener for a creamy and balanced taste</p1></div>
+            <div class="price">Price: ₹189</div>
+        </div>
+
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>IRISH QUOTES ‘’</strong></div>
+            <div class="desc"><p1></p1>a deliciously milky coffee with a creamy Irish coffee tasting flavour in every sip</div>
+            <div class="price">Price: ₹189</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>WHITE HEART </strong></div>
+            <div class="desc"><p1>velvety milk and vanilla syrup come together to create a new twist on an coffee brew classic</p1></div>
+            <div class="price">Price: ₹189</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>ICED MOCHA </strong></div>
+            <div class="desc"><p1>bittersweet chocolate + coffee + milk over ice</p1></div>
+            <div class="price">Price: ₹189</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>BUTTERCREAM BFFs</strong></div>
+            <div class="desc"><p1>a hug from your best friend, but in a cup!</p1></div>
+            <div class="price">Price: ₹199</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>VIETNAMESE COCONUT COFFEE</strong></div>
+            <div class="desc"><p1>tropical flavor, takes you to the neighbour state</p1></div>
+            <div class="price">Price: ₹199</div>
+        </div>
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>HONEY DIVE ICE CREAM ~ </strong></div>
+            <div class="desc"><p1>add chocolate or vanilla ice cream top to make the honey base latte more intriguing</p1></div>
+            <div class="price">Price: ₹210</div>
+        </div>
+
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>OREO CREAM</strong></div>
+            <div class="desc"><p1>dunked with the irresistible flavor of crushed Oreos, that you can now sip and savor</p1></div>
+            <div class="price">Price: ₹210</div>
+        </div>
+    </div>
+
+  <div class="menu-category" id="dqs" onclick="toggleMenu('dqs-items')">DQ's EXCLUSIVE</div>
+
+    <div class="menu-items" id="dqs-items">
+        <div class="menu-item">
+            <img class="item-image" src="espresso-image.jpg" alt="Espresso Image">
+            <div class="item-name"><strong>COFFEE IN A CONE</strong></div>
+            <div class="desc"><p1>sip & bite - coffee served with a choco layered cone</p1></div>
+            <div class="price">Price: ₹250</div>
+        </div>
+
+</main>
+
+<script>
+function toggleMenu(categoryId) {
+    const menuCategory = document.getElementById(categoryId);
+    const menuItems = document.querySelectorAll(`#${categoryId} .menu-item`); // Get all menu items under the clicked category
+
+    if (menuCategory.classList.contains('active')) {
+        menuCategory.classList.remove('active');
+        menuItems.forEach(item => item.style.display = 'none');
+    } else {
+        menuCategory.classList.add('active');
+        menuItems.forEach(item => item.style.display = 'block');
+    }
+}
+</script>
