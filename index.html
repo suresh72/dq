@@ -621,5 +621,11 @@ function toggleMenu(categoryId) {
       category.classList.remove('active');
     }
   }
+  // Scroll the page to bring the active category into view
+    const activeCategoryOffset = menuCategory.offsetTop;
+    window.scroll({
+      top: activeCategoryOffset - 100, // Adjust the offset to ensure the category is in the visible area
+      behavior: 'smooth'
+    });
 }
 </script>
