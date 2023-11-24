@@ -601,15 +601,25 @@
 
 <script>
 function toggleMenu(categoryId) {
-    const menuCategory = document.getElementById(categoryId);
-    const menuItems = document.querySelectorAll(`#${categoryId} .menu-item`); // Get all menu items under the clicked category
+  const menuCategory = document.getElementById(categoryId);
+  const menuItems = document.querySelectorAll('.menu-item'); // Get all menu items
 
-    if (menuCategory.classList.contains('active')) {
-        menuCategory.classList.remove('active');
-        menuItems.forEach(item => item.style.display = 'none');
-    } else {
-        menuCategory.classList.add('active');
-        menuItems.forEach(item => item.style.display = 'block');
+  // Hide all menu items
+  menuItems.forEach(item => item.style.display = 'none');
+
+  // Show menu items for the clicked category
+  const clickedCategoryItems = document.querySelectorAll(`#${categoryId} .menu-item`);
+  clickedCategoryItems.forEach(item => item.style.display = 'block');
+
+  // Add active class to the clicked category
+  menuCategory.classList.add('active');
+
+  // Remove active class from other categories
+  const otherCategories = document.querySelectorAll('.menu-category');
+  for (const category of otherCategories) {
+    if (category.id !== categoryId) {
+      category.classList.remove('active');
     }
+  }
 }
 </script>
