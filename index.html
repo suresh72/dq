@@ -31,7 +31,6 @@
             font-size: 28px;
             font-weight: bold;
             margin-bottom: 2px;
-           mar
             border-radius: 10px;
         }
       
@@ -630,31 +629,37 @@
 
 <script>
 function toggleMenu(categoryId) {
-  const menuCategory = document.getElementById(categoryId);
-  const menuItems = document.querySelectorAll('.menu-item'); // Get all menu items
+    const menuCategory = document.getElementById(categoryId);
+    const menuItems = document.querySelectorAll('.menu-item'); // Get all menu items
 
-  // Hide all menu items
-  menuItems.forEach(item => item.style.display = 'none');
+    // Check if the clicked category is already active
+    const isActive = menuCategory.classList.contains('active');
 
-  // Show menu items for the clicked category
-  const clickedCategoryItems = document.querySelectorAll(`#${categoryId} .menu-item`);
-  clickedCategoryItems.forEach(item => item.style.display = 'block');
+    // Hide all menu items
+    menuItems.forEach(item => item.style.display = 'none');
 
-  // Add active class to the clicked category
-  menuCategory.classList.add('active');
-
-  // Remove active class from other categories
-  const otherCategories = document.querySelectorAll('.menu-category');
-  for (const category of otherCategories) {
-    if (category.id !== categoryId) {
-      category.classList.remove('active');
+    // Show menu items for the clicked category if it's not active
+    if (!isActive) {
+        const clickedCategoryItems = document.querySelectorAll(`#${categoryId} .menu-item`);
+        clickedCategoryItems.forEach(item => item.style.display = 'block');
     }
-  }
-  // Scroll the page to bring the active category into view
+
+    // Toggle the active class for the clicked category
+    menuCategory.classList.toggle('active');
+
+    // Remove active class from other categories
+    const otherCategories = document.querySelectorAll('.menu-category');
+    for (const category of otherCategories) {
+        if (category.id !== categoryId) {
+            category.classList.remove('active');
+        }
+    }
+
+    // Scroll the page to bring the active category into view
     const activeCategoryOffset = menuCategory.offsetTop;
     window.scroll({
-      top: activeCategoryOffset - 100, // Adjust the offset to ensure the category is in the visible area
-      behavior: 'smooth'
+        top: activeCategoryOffset - 100, // Adjust the offset to ensure the category is in the visible area
+        behavior: 'smooth'
     });
 }
 </script>
