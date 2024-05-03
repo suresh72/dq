@@ -1,0 +1,608 @@
+[
+  {
+    "Category": "ESPRESSO BASED",
+    "Item Name": "Hot Espresso Shot",
+    "'Description'": "''",
+    "Price": "140"
+  },
+  {
+    "Category": "ESPRESSO BASED",
+    "Item Name": "Long Black",
+    "'Description'": "'(hot/iced)'",
+    "Price": "160"
+  },
+  {
+    "Category": "ESPRESSO BASED",
+    "Item Name": "Cafe Latte",
+    "'Description'": "''",
+    "Price": "170"
+  },
+  {
+    "Category": "ESPRESSO BASED",
+    "Item Name": "Cappuccino",
+    "'Description'": "''",
+    "Price": "170"
+  },
+  {
+    "Category": "ESPRESSO BASED",
+    "Item Name": "Hot Mocha",
+    "'Description'": "'(Dark/white chocolate)'",
+    "Price": "210"
+  },
+  {
+    "Category": "ESPRESSO BASED",
+    "Item Name": "Cortado",
+    "'Description'": "'1:1'",
+    "Price": "170"
+  },
+  {
+    "Category": "ESPRESSO BASED",
+    "Item Name": "Cafe Bombon",
+    "'Description'": "'shots'",
+    "Price": "195"
+  },
+  {
+    "Category": "ESPRESSO BASED",
+    "Item Name": "Warm Nutella Mocha",
+    "'Description'": "''",
+    "Price": "220"
+  },
+  {
+    "Category": "ESPRESSO BASED",
+    "Item Name": "Vietnamese Coffee",
+    "'Description'": "''",
+    "Price": "230"
+  },
+  {
+    "Category": "ESPRESSO BASED",
+    "Item Name": "Biscoff Wallnut Latte",
+    "'Description'": "''",
+    "Price": "290"
+  },
+  {
+    "Category": "ESPRESSO BASED",
+    "Item Name": "Spanish Latte",
+    "'Description'": "''",
+    "Price": "250"
+  },
+  {
+    "Category": "MANUAL BREWS",
+    "Item Name": "Black Coffee",
+    "'Description'": "'(hot/iced)'",
+    "Price": "80"
+  },
+  {
+    "Category": "MANUAL BREWS",
+    "Item Name": "Authentic Filter Coffee",
+    "'Description'": "''",
+    "Price": "90"
+  },
+  {
+    "Category": "MANUAL BREWS",
+    "Item Name": "Pourover (v60)",
+    "'Description'": "''",
+    "Price": ""
+  },
+  {
+    "Category": "MANUAL BREWS",
+    "Item Name": "Aeropress",
+    "'Description'": "''",
+    "Price": ""
+  },
+  {
+    "Category": "MANUAL BREWS",
+    "Item Name": "French Press",
+    "'Description'": "''",
+    "Price": ""
+  },
+  {
+    "Category": "COLD BREW",
+    "Item Name": "Iced Salted Caramel",
+    "'Description'": "'a smooth blend of cold brew topped off with a creamy salty twist'",
+    "Price": "249"
+  },
+  {
+    "Category": "COLD BREW",
+    "Item Name": "Iced Chocolate Cream",
+    "'Description'": "'mocha vibes but bitter? Yes'",
+    "Price": "249"
+  },
+  {
+    "Category": "COLD BREW",
+    "Item Name": "Iced G.o.a.t (irish)",
+    "'Description'": "'perfect cold-brew doesn't ex…...'",
+    "Price": "249"
+  },
+  {
+    "Category": "HOT BASED",
+    "Item Name": "Hot Chocolate",
+    "'Description'": "''",
+    "Price": "195"
+  },
+  {
+    "Category": "HOT BASED",
+    "Item Name": "Cinnamon Hot Chocolate",
+    "'Description'": "''",
+    "Price": "220"
+  },
+  {
+    "Category": "HOT BASED",
+    "Item Name": "Hazelnut Hot Chocolate",
+    "'Description'": "''",
+    "Price": "220"
+  },
+  {
+    "Category": "HOT BASED",
+    "Item Name": "Italian Hot Chocolate",
+    "'Description'": "'belgium dark chocolate",
+    "Price": "no milk"
+  },
+  {
+    "Category": "CHILL BASED",
+    "Item Name": "Lemon Ice Tea",
+    "'Description'": "''",
+    "Price": "140"
+  },
+  {
+    "Category": "CHILL BASED",
+    "Item Name": "Peach Ice Tea",
+    "'Description'": "''",
+    "Price": "140"
+  },
+  {
+    "Category": "CHILL BASED",
+    "Item Name": "Blueflower Ice Tea",
+    "'Description'": "''",
+    "Price": "140"
+  },
+  {
+    "Category": "CHILL BASED",
+    "Item Name": "Cold Strawberry",
+    "'Description'": "''",
+    "Price": "190"
+  },
+  {
+    "Category": "CHILL BASED",
+    "Item Name": "Cold Chocolate",
+    "'Description'": "''",
+    "Price": "190"
+  },
+  {
+    "Category": "Gourmet Cold Infusions",
+    "Item Name": "Coffee Jelly(Java Slash)",
+    "'Description'": "'latte-sweetened with brown sugar and bottomed with delicate in-house coffee jelly'",
+    "Price": "245"
+  },
+  {
+    "Category": "Gourmet Cold Infusions",
+    "Item Name": "Biscoff Bliss",
+    "'Description'": "'semi-sweet drink-a perfect blend of espresso and smooth biscoff spread'",
+    "Price": "345"
+  },
+  {
+    "Category": "Gourmet Cold Infusions",
+    "Item Name": "Liit (long Island Italian Tiramisu)",
+    "'Description'": "'bitter-sour-sweet drink-inspired by the classic italian desert",
+    "Price": "with flavors of espresso'"
+  },
+  {
+    "Category": "Gourmet Cold Infusions",
+    "Item Name": "Iced Nutella Mocha",
+    "'Description'": "'chocolate",
+    "Price": "hazelunetty"
+  },
+  {
+    "Category": "Gourmet Cold Infusions",
+    "Item Name": "Www (willy Wonka In White)",
+    "'Description'": "'white chocolate sauce + cold brew'",
+    "Price": "295"
+  },
+  {
+    "Category": "Gourmet Cold Infusions",
+    "Item Name": "Green Queen",
+    "'Description'": "'high quality",
+    "Price": "matcha green powder blended with your choice of milk & syrup'"
+  },
+  {
+    "Category": "Gourmet Cold Infusions",
+    "Item Name": "Black Pink",
+    "'Description'": "'Infused with activated charcoal",
+    "Price": "with a subtle smoky flavor and a touch of strawberry sweetness'"
+  },
+  {
+    "Category": "Gourmet Cold Infusions",
+    "Item Name": "Irish Coffee",
+    "'Description'": "'cream irish coffee for sweet side coffee lovers '",
+    "Price": "250"
+  },
+  {
+    "Category": "ICED LATTE",
+    "Item Name": "Dq Strong",
+    "'Description'": "'For the one who loves strong coffee' - double shot of coffee/espresso with sweetened milk'",
+    "Price": "149"
+  },
+  {
+    "Category": "ICED LATTE",
+    "Item Name": "Exclamatory",
+    "'Description'": "'cold brew shot with our hazelnut syrup and milk'",
+    "Price": "189"
+  },
+  {
+    "Category": "ICED LATTE",
+    "Item Name": "Caramel Love",
+    "'Description'": "'milk and coffee combined with caramel sweetner for a creamy and balanced taste'",
+    "Price": "189"
+  },
+  {
+    "Category": "ICED LATTE",
+    "Item Name": "Irish Quotes",
+    "'Description'": "'A deliciously milky coffee with a creamy irish coffee tasting flavor in every sip'",
+    "Price": "189"
+  },
+  {
+    "Category": "ICED LATTE",
+    "Item Name": "White Heart",
+    "'Description'": "'velvety milk and vanilla syrup come together to create a new twist on a coffee brew classic'",
+    "Price": "189"
+  },
+  {
+    "Category": "ICED LATTE",
+    "Item Name": "Iced Mocha",
+    "'Description'": "'bittersweet chocolate + coffee + milk over ice'",
+    "Price": "189"
+  },
+  {
+    "Category": "ICED LATTE",
+    "Item Name": "Buttercream Bffs",
+    "'Description'": "'A hug from your bestfriend",
+    "Price": "but in a cup!'"
+  },
+  {
+    "Category": "ICED LATTE",
+    "Item Name": "Co-co-coffee (coconut Coffee)",
+    "'Description'": "'Tropical flavor",
+    "Price": "takes you to the neighbour state'"
+  },
+  {
+    "Category": "ICED LATTE",
+    "Item Name": "Honey Dive",
+    "'Description'": "'Add chocolate or vanilla ice cream",
+    "Price": "top to make the honey base latte more intriguing'"
+  },
+  {
+    "Category": "ICED LATTE",
+    "Item Name": "Oreo Cream",
+    "'Description'": "'Dunked with the irresistable flavopr of crushed oreos that you can now sip and savour'",
+    "Price": "210"
+  },
+  {
+    "Category": "COFFEE  THICK SHAKES",
+    "Item Name": "Dq Signature Shake",
+    "'Description'": "'Magical",
+    "Price": "elusive and unforgettable'"
+  },
+  {
+    "Category": "COFFEE  THICK SHAKES",
+    "Item Name": "Weeknd (og)",
+    "'Description'": "'Irish coffee - thick'",
+    "Price": "195"
+  },
+  {
+    "Category": "COFFEE  THICK SHAKES",
+    "Item Name": "D.O.P.E",
+    "'Description'": "'choco thickshake with a full punch of coffee'",
+    "Price": "245"
+  },
+  {
+    "Category": "THICKSHAKES",
+    "Item Name": "Banoffee",
+    "'Description'": "'banana + caramel + ice cream'",
+    "Price": "195"
+  },
+  {
+    "Category": "THICKSHAKES",
+    "Item Name": "Kitkat / OREO / Brownie Thickshake",
+    "'Description'": "'its your call to make its either kitkat or oreo or brownie ice cream blend '",
+    "Price": "235"
+  },
+  {
+    "Category": "THICKSHAKES",
+    "Item Name": "Mango Rango (seasonal)",
+    "'Description'": "'real fruit mango + ice cream - ultimately thick'",
+    "Price": "285"
+  },
+  {
+    "Category": "THICKSHAKES",
+    "Item Name": "Strawberry Shake",
+    "'Description'": "'A thick strawberry shake with a fudge drizzle toppeed with whipped cream'",
+    "Price": "245"
+  },
+  {
+    "Category": "THICKSHAKES",
+    "Item Name": "Redvelvet Cheesecake",
+    "'Description'": "'Fudgy cake with rick almonds and nuts smashed up with vanilla",
+    "Price": "drizzled and topped with chocolate'"
+  },
+  {
+    "Category": "THICKSHAKES",
+    "Item Name": "Deep Purple Delight",
+    "'Description'": "'Black currant ice cream blend'",
+    "Price": "240"
+  },
+  {
+    "Category": "THICKSHAKES",
+    "Item Name": "Chocozilla",
+    "'Description'": "'chocolate ice cream + choco chips + choco shots'",
+    "Price": "255"
+  },
+  {
+    "Category": "THICKSHAKES",
+    "Item Name": "Ferrero Rocher Exotic",
+    "'Description'": "'a creamy rich shake with the flavors of former ferrero rocher chocolate'",
+    "Price": "325"
+  },
+  {
+    "Category": "THICKSHAKES",
+    "Item Name": "Lotus Biscoff Exotic",
+    "'Description'": "'creamy thickshake topped with crushed biscoff biscuits and melted cookie spread'",
+    "Price": "325"
+  },
+  {
+    "Category": "FRAPPE",
+    "Item Name": "Strawberry Creamcheese Frappe",
+    "'Description'": "'Our signature frappe is a perfect blend of freswh strawberries (seasonal)",
+    "Price": "creamy cheese to create a smooth and creamy texture that you will love it! 'source - trust me bruh!)'"
+  },
+  {
+    "Category": "FRAPPE",
+    "Item Name": "Caramel Frappuccino",
+    "'Description'": "' A creamy and decadent coffee drink made with blended ice & sweet caramel sauce and rich espresso. Topped with a dollpop of whipped cream & drizzled with even more caramel'",
+    "Price": "285"
+  },
+  {
+    "Category": "FRAPPE",
+    "Item Name": "Cookie N Cream Frappe",
+    "'Description'": "'Take a sip and let the chilled smoothness of the frappe transport you to cookie heaven!'",
+    "Price": "285"
+  },
+  {
+    "Category": "FRAPPE",
+    "Item Name": "Choco-chip Frappe",
+    "'Description'": "'A combination of rich",
+    "Price": "chocolatey/mocha sauce"
+  },
+  {
+    "Category": "FRAPPE",
+    "Item Name": "Mocha ( Jawa ) Frappe",
+    "'Description'": "'A combination of rich",
+    "Price": "chocolatey/mocha sauce"
+  },
+  {
+    "Category": "FRAPPE",
+    "Item Name": "Matcha Frappe",
+    "'Description'": "'Green tea powder + ice cubes + whip top'",
+    "Price": "330"
+  },
+  {
+    "Category": "SPRITZER",
+    "Item Name": "Espresso Cream Soda",
+    "'Description'": "'blend of bold espresso and fizzy refreshment '",
+    "Price": ""
+  },
+  {
+    "Category": "SPRITZER",
+    "Item Name": "Old School Mojito",
+    "'Description'": "'Mint infused simple syrup made with fresh mint is combined with freash lime juice",
+    "Price": "a bit of extra muddled mint and club soda'"
+  },
+  {
+    "Category": "SPRITZER",
+    "Item Name": "Blue Island",
+    "'Description'": "'The unmatchable flavor and the vibrant hue makes this not only a feast for eyes but also for your taste buds!'",
+    "Price": "170"
+  },
+  {
+    "Category": "SPRITZER",
+    "Item Name": "Strawberry Mojito",
+    "'Description'": "'Strawberry crystals muddle with lime and mint and a dash of soda water'",
+    "Price": "190"
+  },
+  {
+    "Category": "SPRITZER",
+    "Item Name": "Ginger Peach Soda",
+    "'Description'": "'The subtle sweetness of peach syrup with the bold  kick of ginger'",
+    "Price": "145"
+  },
+  {
+    "Category": "SPRITZER",
+    "Item Name": "Magic Tea Mojito",
+    "'Description'": "'Strawberry and lime juice",
+    "Price": "butterfly pea tea extract"
+  },
+  {
+    "Category": "SUNDAE",
+    "Item Name": "Affagato",
+    "'Description'": "'( vanilla/choc) 1 shot of espresso served with a scoop of ice cream'",
+    "Price": "200"
+  },
+  {
+    "Category": "SUNDAE",
+    "Item Name": "Matcha Affagato",
+    "'Description'": "'1 shot of matcha",
+    "Price": "a scoop of ice cream'"
+  },
+  {
+    "Category": "SUNDAE",
+    "Item Name": "Affagato W/ Coffee Jelly",
+    "'Description'": "'coffee jelly + vanilla + espresso '",
+    "Price": ""
+  },
+  {
+    "Category": "SUNDAE",
+    "Item Name": "Brownie Crown",
+    "'Description'": "'warm brownie topped with vanilla ice cream garnished with chocolate sauce'",
+    "Price": "150"
+  },
+  {
+    "Category": "SUNDAE",
+    "Item Name": "La-valcano",
+    "'Description'": "'oxymoronic combination just like your decisions :P'",
+    "Price": "150"
+  },
+  {
+    "Category": "SUNDAE",
+    "Item Name": "Double Chocolate Sundae",
+    "'Description'": "'2 scoops of chocolate ice cream with all chocolate base ingredients'",
+    "Price": "150"
+  },
+  {
+    "Category": "PASTRY",
+    "Item Name": "Choco Lava Bun",
+    "'Description'": "'It's not just a simple spread as every bite is filled with a heavenly chocolate explosion that will leave you craving for more'",
+    "Price": "90"
+  },
+  {
+    "Category": "PASTRY",
+    "Item Name": "Korean Cheese Bun",
+    "'Description'": "''",
+    "Price": "160"
+  },
+  {
+    "Category": "PASTRY",
+    "Item Name": "Lava Cake",
+    "'Description'": "''",
+    "Price": "60"
+  },
+  {
+    "Category": "PASTRY",
+    "Item Name": "Gooey Brownie",
+    "'Description'": "''",
+    "Price": "90"
+  },
+  {
+    "Category": "PASTRY",
+    "Item Name": "Butter Croissant",
+    "'Description'": "''",
+    "Price": "120"
+  },
+  {
+    "Category": "PASTRY",
+    "Item Name": "Pain Au Chocolat",
+    "'Description'": "''",
+    "Price": "130"
+  },
+  {
+    "Category": "PASTRY",
+    "Item Name": "Choco Crunch Cookie",
+    "'Description'": "''",
+    "Price": "130"
+  },
+  {
+    "Category": "PASTRY",
+    "Item Name": "Spiced-up Cookies (50 gms)",
+    "'Description'": "'nostalgic savory'",
+    "Price": "90"
+  },
+  {
+    "Category": "BITE-SOCIAL",
+    "Item Name": "French Fries",
+    "'Description'": "''",
+    "Price": "199"
+  },
+  {
+    "Category": "BITE-SOCIAL",
+    "Item Name": "Spicy Peri-peri Fries",
+    "'Description'": "''",
+    "Price": "229"
+  },
+  {
+    "Category": "BREAD & SANDWICHES",
+    "Item Name": "Garlic Bread",
+    "'Description'": "'olive oil infused garlic smash + country bread'",
+    "Price": "240"
+  },
+  {
+    "Category": "BREAD & SANDWICHES",
+    "Item Name": "Mushromance",
+    "'Description'": "'mushrooms",
+    "Price": "fresh herbs and creamy cheese nestled bet'"
+  },
+  {
+    "Category": "BREAD & SANDWICHES",
+    "Item Name": "Los Pesloto Hermanos",
+    "'Description'": "'pestro sauce made from basil leaves + wallnut+garlic + parmesan cheese and oilive oil'",
+    "Price": "295"
+  },
+  {
+    "Category": "BREAD & SANDWICHES",
+    "Item Name": "Smoked - Cottage Chesse",
+    "'Description'": "'tandoori - panner - open toast'",
+    "Price": "325"
+  },
+  {
+    "Category": "WHOLESOME OATS",
+    "Item Name": "Double Oats - Berry",
+    "'Description'": "'milk - soaked oats topped with a berrry bonanza'",
+    "Price": "300"
+  },
+  {
+    "Category": "WHOLESOME OATS",
+    "Item Name": "Over - Night Coffee Oats",
+    "'Description'": "'super charge your day with this caffeine breakfast'",
+    "Price": "300"
+  },
+  {
+    "Category": "WHOLESOME OATS",
+    "Item Name": "Banana Nutty Oats",
+    "'Description'": "'rich in nutriition - hint of banana sweetness and a satisfying crunch of nuts'",
+    "Price": "300"
+  },
+  {
+    "Category": "EVERYTHING MATCHA",
+    "Item Name": "Rachel Green",
+    "'Description'": "'hot matcha delight",
+    "Price": "just like the one and only friend'"
+  },
+  {
+    "Category": "EVERYTHING MATCHA",
+    "Item Name": "Green Queen",
+    "'Description'": "'high-quality",
+    "Price": "Matcha green tea powder blended with coffee + choice of milk & syrup'"
+  },
+  {
+    "Category": "EVERYTHING MATCHA",
+    "Item Name": "Matcha Green Milk",
+    "'Description'": "'matcha green tea powder whisked and poured ove chilled milk with sweetner of your choice'",
+    "Price": "200"
+  },
+  {
+    "Category": "EVERYTHING MATCHA",
+    "Item Name": "Matcha Frappe",
+    "'Description'": "'Green tea powder + ice cubes + whip top'",
+    "Price": "330"
+  },
+  {
+    "Category": "EVERYTHING MATCHA",
+    "Item Name": "Matcha-Gato",
+    "'Description'": "'( vanilla/choc) 1 shot of matcha served with a scoop of ice cream'",
+    "Price": "200"
+  },
+  {
+    "Category": "DQ EXCLUSIVES",
+    "Item Name": "Coffee in a Cone",
+    "'Description'": "''",
+    "Price": "250"
+  },
+  {
+    "Category": "DQ EXCLUSIVES",
+    "Item Name": "Mango In A Cone",
+    "'Description'": "''",
+    "Price": "330"
+  },
+  {
+    "Category": "DQ EXCLUSIVES",
+    "Item Name": "Milo In The Cone",
+    "'Description'": "''",
+    "Price": "300"
+  }
+]
